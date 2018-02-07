@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.min.css">
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="lib/onsenui/js/myjs.js"></script> 
+</head>
+<body>
+
+  
+  <ons-carousel direction="vertical" fullscreen swipeable auto-scroll overscrollable id="carousel">
+  	<ons-carousel-item  style="background-color: #373b44;">
+  		<div style="text-align: center; position:absolute; top:50%; left:27%">
+				<p>
+  				<ons-input id="username" modifier="underbar" placeholder="User Name" float>
+  			</p>
+				<p>
+  				<ons-input id="password" modifier="underbar"  type="password" min="6" max="12" placeholder="Password" float>
+  			</p>
+  			
+  			<p>
+  				<ons-button onclick="login()">Sign in </ons-button>
+  			</p>
+  		</div>
+  		
+		</ons-carousel-item>
+		<ons-carousel-item style="background-color: #373b44;">
+  		<div style="text-align: center; position:absolute; top:50%; left:27%">
+  			<p>
+  				<ons-input id="password" modifier="underbar"  type="password" min="6" max="12" placeholder="Password" float>
+  			</p>
+  		</div>
+  		
+  	</ons-carousel-item>
+  </ons-carousel>
+</body>
+</html>
